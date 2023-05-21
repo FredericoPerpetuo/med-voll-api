@@ -14,7 +14,7 @@ public record DadosCasdastroMedico(
         @Email
         String email,
         @NotBlank
-        @Pattern(regexp = "\\d{12}")
+        @Pattern(regexp = "\\d{11g}")
         String celular,
         @NotBlank
         @Pattern(regexp = "\\d{4,6}")
